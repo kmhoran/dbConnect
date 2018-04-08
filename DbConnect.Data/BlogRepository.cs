@@ -8,6 +8,19 @@ namespace DbConnect.Data
 {
     public class BlogRepository
     {
+
+        public void AddBlog(string title)
+        {
+            using (var dbContext = new MyDb_20180408Entities())
+            {
+                var newBlog = new BlogSet();
+                newBlog.BlogTitle = title;
+
+                dbContext.BlogSet.Add(newBlog);
+                dbContext.SaveChanges();
+            }
+        }
+
         public IEnumerable<BlogSet> GetBlogs()
         {
             using(var dbConext = new MyDb_20180408Entities())
