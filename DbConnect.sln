@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbConnect.App", "DbConnect.App\DbConnect.App.csproj", "{48A6FC5E-1CC5-49F0-87C0-2AA182E2825C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbConnect.Data", "DbConnect.Data\DbConnect.Data.csproj", "{4D23F9C5-0CFC-4BA0-92C1-40B8625DB62D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48A6FC5E-1CC5-49F0-87C0-2AA182E2825C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A6FC5E-1CC5-49F0-87C0-2AA182E2825C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A6FC5E-1CC5-49F0-87C0-2AA182E2825C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A6FC5E-1CC5-49F0-87C0-2AA182E2825C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D23F9C5-0CFC-4BA0-92C1-40B8625DB62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D23F9C5-0CFC-4BA0-92C1-40B8625DB62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D23F9C5-0CFC-4BA0-92C1-40B8625DB62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D23F9C5-0CFC-4BA0-92C1-40B8625DB62D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
