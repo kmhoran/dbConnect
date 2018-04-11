@@ -14,7 +14,7 @@
 !/packages/*/lib/*/*.dll
 # Include dlls if they're in the CommonReferences directory
 !*CommonReferences/*.dll
-[Ss]ecret/
+secret/
 
 ####################
 # VS Upgrade stuff #
@@ -78,4 +78,6 @@ _[Ss]cripts
 *.dot[Cc]over
 # Databases #
 ######################
-AppData/
+DbConnect.App/AppData/
+*.mdf
+*.ldf
