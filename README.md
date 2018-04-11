@@ -1,7 +1,7 @@
 # DbConnect
 A project to demonstrate the potential of providing database templates in an open-source solution.
 
-This project accompanies my [Shareable Database with Ms SQL Server & .Net Entity Framework blog post](https://medium.com/@kevin.michael.horan/distributed-video-streaming-with-python-and-kafka-551de69fe1dd).
+This project accompanies my [blog post](https://medium.com/@kevin.michael.horan/distributed-video-streaming-with-python-and-kafka-551de69fe1dd), Shareable Database with Ms SQL Server & .Net Entity Framework.
 
 ### Installation
 
