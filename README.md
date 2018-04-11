@@ -20,4 +20,4 @@ providerName="System.Data.EntityClient" />
 ```
 5. In the *connecction.config* Properties menu, change the **Copy to Output Directory** value from **Do not copy** to **Copy always**.
 
-The file *secret/connection.config* is specified in the DbConnect.App/App.config as the relative path to the connection strings config file.
+The file *secret/connection.config* is specified in *DbConnect.App/App.config* as the relative path to the connection strings config file.
