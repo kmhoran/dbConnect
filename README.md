@@ -14,9 +14,10 @@ To get started,
 ```xml
 <connectionStrings>
   <add name="MyDbEntities"
-  connectionString="metadata=res://*/DbModels.csdl|res://*/DbModels.ssdl|res://*/DbModels.msl;provider=System.Data.SqlClient; provider connection string=&quot;data source (LocalDB)\MSSQLLocalDB;attachdbfilename=[Absolute Path To Project]\DbConnect.App\App_Data\MyDb.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+  connectionString="metadata=res://*/DbModels.csdl|res://*/DbModels.ssdl|res://*/DbModels.msl;provider=System.Data.SqlClient; provider connection string=&quot;data source (LocalDB)\MSSQLLocalDB;attachdbfilename=[Absolute Path To Project]\DbConnect.App\App_Data\MyDb.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" 
+providerName="System.Data.EntityClient" />
 </connectionStrings>
 ```
 5. In the *connecction.config* Properties menu, change the **Copy to Output Directory** value from **Do not copy** to **Copy always**.
 
-the file secret/connection.config is specified in the DbConnect.App/App.config. That is the value 
+The file *secret/connection.config* is specified in the DbConnect.App/App.config as the relative path to the connection strings config file.
