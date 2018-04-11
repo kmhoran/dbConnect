@@ -13,7 +13,7 @@ To get started,
 
 ```xml
 <connectionStrings>
-  <add name="MyDbEntities"
+  <add name="MyDb_20180408"
   connectionString="metadata=res://*/DbModels.csdl|res://*/DbModels.ssdl|res://*/DbModels.msl;provider=System.Data.SqlClient; provider connection string=&quot;data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=[Absolute Path To Project]\DbConnect.App\App_Data\MyDb.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" 
   providerName="System.Data.EntityClient" />
 </connectionStrings>
