@@ -14,10 +14,12 @@ To get started,
 ```xml
 <connectionStrings>
   <add name="MyDbEntities"
-  connectionString="metadata=res://*/DbModels.csdl|res://*/DbModels.ssdl|res://*/DbModels.msl;provider=System.Data.SqlClient; provider connection string=&quot;data source (LocalDB)\MSSQLLocalDB;attachdbfilename=[Absolute Path To Project]\DbConnect.App\App_Data\MyDb.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" 
+  connectionString="metadata=res://*/DbModels.csdl|res://*/DbModels.ssdl|res://*/DbModels.msl;provider=System.Data.SqlClient; provider connection string=&quot;data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=[Absolute Path To Project]\DbConnect.App\App_Data\MyDb.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" 
   providerName="System.Data.EntityClient" />
 </connectionStrings>
 ```
 5. In the *connecction.config* Properties menu, change the **Copy to Output Directory** value from **Do not copy** to **Copy always**.
 
 The file *secret/connection.config* is specified in *DbConnect.App/App.config* as the relative path to the connection strings config file.
+
+This configuration will spin up a DB connection to your LocalDB instance (a feature of SQL Server Express). To switch this out with another database instance, update the **dataSource** attrribute to point to your database rather than **(LocalDB)\MSSQLLocalDB**
