@@ -11,7 +11,7 @@ To get started,
 3. Within the *secrets* folder, add a new config file called *connection.config*
 4. Within *connection.config* paste the following lines **(NOTE: [Absolute Path To Project] must be replaced with an actual path)**
 
-```csharp
+```xml
 <connectionStrings>
   <add name="MyDbEntities"
   connectionString="metadata=res://*/DbModels.csdl|res://*/DbModels.ssdl|res://*/DbModels.msl;provider=System.Data.SqlClient; provider connection string=&quot;data source (LocalDB)\MSSQLLocalDB;attachdbfilename=[Absolute Path To Project]\DbConnect.App\App_Data\MyDb.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
